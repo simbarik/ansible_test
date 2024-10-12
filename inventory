@@ -1,5 +1,10 @@
-#[test_servers]
-192.168.1.30
+[test]
+rost@192.168.1.34
+#192.168.1.34
+
+#[srv]
+#rost@192.168.1.30
+
 #192.168.1.20 ansible_user=rost ansible_port=22
 #192.168.1.20 ansible_user=rost ansible_password=
 #server2 ansible_host=192.168.1.21
